@@ -470,6 +470,7 @@ strong {
   width: 1180px;
   height: 100%;
   margin: 0 auto;
+  padding: 10px 0;
 }
 .header__logo {
   flex-shrink: 0;
@@ -13127,4 +13128,34 @@ nav.gaijin-menu.top-panel {
 }
 .c {
   margin: 30px 0;
+}
+
+@media (max-width: 767.98px) {
+  #tokenomics #tokenomicsdesktop {
+    display: none;
+  }
+}
+
+#tokenomics #tokenomicsdesktop {
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#tokenomics #tokenomicsmobile {
+  display: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media (max-width: 767.98px) {
+  #tokenomics #tokenomicsmobile {
+    display: block;
+    width: 100%;
+  }
 }

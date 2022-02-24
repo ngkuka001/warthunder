@@ -1171,29 +1171,29 @@ parcelRequire = (function (e, r, t, n) {
                       }
                       return (
                         n(t, [
-                          {
-                            key: "initialise",
-                            value: function () {
-                              void 0 === this.transform2DSupport &&
-                                ((this.transform2DSupport =
-                                  r.transformSupport("2D")),
-                                (this.transform3DSupport =
-                                  r.transformSupport("3D"))),
-                                this.transform3DSupport &&
-                                  r.accelerate(this.element),
-                                "static" ===
-                                  window
-                                    .getComputedStyle(this.element)
-                                    .getPropertyValue("position") &&
-                                  (this.element.style.position = "relative"),
-                                this.pointerEvents ||
-                                  (this.element.style.pointerEvents = "none"),
-                                this.updateLayers(),
-                                this.updateDimensions(),
-                                this.enable(),
-                                this.queueCalibration(this.calibrationDelay);
-                            },
-                          },
+                          // {
+                          //   key: "initialise",
+                          //   value: function () {
+                          //     void 0 === this.transform2DSupport &&
+                          //       ((this.transform2DSupport =
+                          //         r.transformSupport("2D")),
+                          //       (this.transform3DSupport =
+                          //         r.transformSupport("3D"))),
+                          //       this.transform3DSupport &&
+                          //         r.accelerate(this.element),
+                          //       "static" ===
+                          //         window
+                          //           .getComputedStyle(this.element)
+                          //           .getPropertyValue("position") &&
+                          //         (this.element.style.position = "relative"),
+                          //       this.pointerEvents ||
+                          //         (this.element.style.pointerEvents = "none"),
+                          //       this.updateLayers(),
+                          //       this.updateDimensions(),
+                          //       this.enable(),
+                          //       this.queueCalibration(this.calibrationDelay);
+                          //   },
+                          // },
                           {
                             key: "doReadyCallback",
                             value: function () {
