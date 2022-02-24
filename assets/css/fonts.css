@@ -1,0 +1,102 @@
+/* // RobotoCondensed */
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("/assets/fonts/regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("/assets/fonts/regularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("/assets/fonts/bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("/assets/fonts/boldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* // Roboto */
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/regularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/mediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/boldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Skyquake";
+  src: url("/assets/fonts/symbols_skyquake_short.woff") format("woff"),
+    url("/assets/fonts/symbols_skyquake_short.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url("/assets/fonts/fontello.eot?#iefix") format("embedded-opentype"),
+    url("/assets/fonts/fontello.ttf") format("truetype"),
+    url("/assets/fonts/fontello.svg") format("svg"),
+    url("/assets/fonts/fontello.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
