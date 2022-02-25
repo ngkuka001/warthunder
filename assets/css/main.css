@@ -13163,12 +13163,16 @@ nav.gaijin-menu.top-panel {
 /* FOOTER */
 
 #footer .footer__section {
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
-  -o-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  background: #13191b;
+  -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s,
+    -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s,
+    -webkit-box-shadow 0.3s;
+  -o-transition: background 0.3s, border 0.3s, border-radius 0.3s,
+    box-shadow 0.3s;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    -webkit-box-shadow 0.3s;
   position: relative;
 }
 #footer .footer__container {
@@ -13181,16 +13185,16 @@ nav.gaijin-menu.top-panel {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 #footer .footer__flex-wrapper {
   padding: 10px;
 }
 #footer .footer__content {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 #footer .footer__content--logo {
   display: flex;
@@ -13217,7 +13221,7 @@ nav.gaijin-menu.top-panel {
 #footer .presale-btn {
   fill: #000000;
   color: #fff;
-  background-color: #FDE000;
+  background-color: #fde000;
   border-radius: 10px 10px 10px 10px;
   padding: 20px 40px;
   box-shadow: none;
@@ -13226,9 +13230,9 @@ nav.gaijin-menu.top-panel {
   display: inline-block;
   line-height: 1;
   text-align: center;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   border: 1px solid #e53935;
   background-color: rgba(229, 57, 53, 0.7);
@@ -13254,13 +13258,13 @@ nav.gaijin-menu.top-panel {
   flex: 1;
   align-items: center;
   justify-content: center;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 #footer .footer__social-icon-wrapper a:hover {
-  opacity: .9;
+  opacity: 0.9;
   color: #e53935;
   transform: scale(1.1);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 @media (max-width: 640px) {
@@ -13329,7 +13333,7 @@ nav.gaijin-menu.top-panel {
 }
 .slide-animate {
   max-height: 0 !important;
-  transition: all 400ms ease-in-out
+  transition: all 400ms ease-in-out;
 }
 @media (max-width: 640px) {
   .adverise .adverise__flex {
