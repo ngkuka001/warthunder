@@ -13245,10 +13245,11 @@ nav.gaijin-menu.top-panel {
 #footer .footer__social-icon-wrapper {
   display: flex;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
 }
 #footer .footer__social-icon-wrapper a {
   color: #fff;
+  margin: 0 30px;
   display: flex;
   flex: 1;
   align-items: center;
